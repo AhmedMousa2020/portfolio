@@ -6,19 +6,12 @@
   "homepage": "https://bradtraversy.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "dev": "webpack --config webpack.config.js",
-    "start": "server.js",
     "deploy": "gh-pages -d dist"
   },
   "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "node-sass": "^4.14.1",
-    "server": "^1.0.30"
-  },
-  "devDependencies": {
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "node-sass": "^4.9.2"
   }
 }
