@@ -7,14 +7,15 @@
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "dev": "webpack --config webpack.config.js",
-    "start": "node index.js",
+    "start": "server.js",
     "deploy": "gh-pages -d dist"
   },
   "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "server": "^1.0.30"
   },
   "devDependencies": {
     "webpack": "^4.44.1",
